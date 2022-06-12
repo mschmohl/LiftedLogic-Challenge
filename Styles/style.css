@@ -88,17 +88,18 @@ nav li, button {
   margin: .5rem;
 }
 
-nav img, button {
+nav img, button.nav {
   margin-left: 3rem;
 }
 
-nav button {
+button {
   background-color: var(--colorLtGreen);
   border: none;
   font-size: 14px;
   word-spacing: 0;
   padding: .5rem 3rem;
   color: var(--colorGreen);
+  margin: 0;
 }
 
 /* Hero Banner */
@@ -193,4 +194,140 @@ nav button {
 }
 
 /* Featured Artist Section */
+.featured-artist-wrapper {
+  height: 600px;
+  width: 100vw;
+  margin: auto;
+  background-color: var(--colorWhite);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* align-items: center; */
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding: 5rem 10rem 4rem 5rem;
+  overflow: hidden;
+}
+
+.featured-artist-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  margin-left: 2rem;
+}
+
+.featured-artist-content h2 {
+  font-family: Karla;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: var(--colorDkBlue);
+}
+
+.featured-artist-content p {
+  font-family: Karla;
+  /* font-weight: 700; */
+  font-size: 16px;
+  letter-spacing: 1;
+  line-height: 25px;
+  color: var(--colorBlack);
+}
+
+/* New Releases Section */
+.new-releases-wrapper {
+  background-color: var(--colorLtGrey);
+}
+
+/* Footer */
+footer {
+  background-color: var(--colorDkBlue);
+  width: 100vw;
+  height: 350px;
+  padding: 3rem;
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+
+.footer-top-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.co-info {
+  font-family: Karla;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 25px;
+  color: var(--colorWhite);
+}
+
+.footer-top-items h2 {
+  text-transform: uppercase;
+}
+
+.footer-top-item {
+  font-weight: 400;
+}
+
+.explore-items, .music-items, .artists-items, .records-items, .concerts-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-top-items ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-bottom-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 1px solid var(--colorWhite);
+  margin-top: 3rem;
+  padding: 2rem 0;
+}
+
+.footer-bottom-item {
+  color: var(--colorWhite);
+  margin-right: 2rem;
+}
+
+.socials a {
+  margin-left: 1rem;
+}
 /*# sourceMappingURL=style.css.map */
