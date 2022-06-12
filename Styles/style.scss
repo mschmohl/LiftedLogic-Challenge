@@ -1,0 +1,122 @@
+/* // Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+:root {
+    --colorDkBlue: #001D5D;
+    --colorGrey: #B8BfCF;
+    --colorGreen: #68C242;
+    --colorLtGreen: #D9F0D0;
+    --colorBlack: #000;
+    --colorWhite: #FFF;
+    --colorDkGrey: #525252;
+    --colorLtGrey: #F6F6F6;
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    width: 100vw;
+    align-items: center;
+    background-color: var(--colorWhite);
+    display: flex;
+    float: right;
+    @media (max-width: 600px) {
+    flex-wrap: wrap;}
+}
+.header-wrapper {
+    width: 90%;
+    padding: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+nav li, button {
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 1;
+    color: var(--colorDkBlue);
+    display: inline-block;
+    align-content: center;
+    margin: .5rem;
+}
+nav img, button {
+    margin-left: 3rem;
+}
+nav button {
+    background-color: var(--colorLtGreen);
+    border: none;
+    font-size: 14px;
+    word-spacing: 0;
+    padding: .5rem 3rem;
+    color: var(--colorGreen);
+}
+
+/* Hero Banner */
+.hero-banner-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../images/image1.png);
+    width: 100vw;
+    height: 700px;
+    margin: 0;
+}
+.hero-text {
+    font-family: Karla;
+    font-weight: 700;
+    color: var(--colorWhite);
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+.hero-text h1 {
+    font-size: 65px;
+    letter-spacing: 0.73;
+    line-height: 76px;
+}
+.hero-text p {
+    font-size: 16px;
+    letter-spacing: 1;
+    line-height: 25px;
+    margin-top: 1rem;
+}
+.play-button {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.play-button p {
+    margin: 0 1rem;
+}
+@keyframes breath {
+  0%   { background-size: 100% auto; }
+  50% { background-size: 140% auto; }
+  100% { background-size: 100% auto; }
+}
+#bkg{
+  width: 100vw;
+  height: 700px;
+  animation: breath 8s linear infinite;
+  background: url(../images/image1.png) no-repeat;
+}
+
+/* Featured Artist Section */
