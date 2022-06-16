@@ -65,6 +65,7 @@ header {
     background-color: var(--colorWhite);
     display: flex;
     float: right;
+    z-index: 10;
     @media (max-width: 600px) {
     flex-wrap: wrap;}
 }
@@ -213,6 +214,7 @@ button:hover {
 }
 .new-releases-title-content p {
     margin-top: 16px;
+    margin-bottom: 70px;
     text-align: center;
 }
 .new-releases-slider-cards {
@@ -242,6 +244,7 @@ button:hover {
 }
 .arrow {
     margin: 64px 19px;
+    cursor: pointer;
 }
 
 /* Map Section */

@@ -74,6 +74,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   float: right;
+  z-index: 10;
 }
 
 @media (max-width: 600px) {
@@ -333,6 +334,7 @@ button:hover {
 
 .new-releases-title-content p {
   margin-top: 16px;
+  margin-bottom: 70px;
   text-align: center;
 }
 
@@ -375,6 +377,7 @@ button:hover {
 
 .arrow {
   margin: 64px 19px;
+  cursor: pointer;
 }
 
 /* Map Section */
