@@ -10,7 +10,7 @@ This is a solution to the Lifted Logic Challenge Frontend Test
 - Live Site URL: https://mschmohl.github.io/LiftedLogic-Challenge/
 
 ## My process
-I started with building the html. Then stylized using Sass. I frequently tested  and checked my code through out the entire process. I commited version updates to GitHub several times. Google searches helped tremendously when stuck. I jot a lot of notes as I program to help with my thinking process.
+I started with building the html. Then stylized using Sass. Used suppplied stylesheet and Invision syle layout for for guidance. I frequently tested  and checked my code through out the entire process. I commited version updates to GitHub several times. Google searches helped tremendously when stuck. I jot a lot of notes as I program to help with my thinking process.
 
 ### Built with
 
