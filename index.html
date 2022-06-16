@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Synder-Recordings</title>
+    <title>Synder-Recordings-Site</title>
     <link rel="stylesheet" href="Styles/style.css">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
@@ -14,46 +14,48 @@
 
 </head>
 <body class="main-content">
-    <header class="header-container">
-        <div class="header-wrapper">
+    <nav class="navbar">
+        <div class="navbar-container container">
             <div class="header-logo">
                 <img src="logo/PNGS/SRrecordings.png" alt="logo" class="logo">
+            </div>  
+          <input type="checkbox" name="" id="" />
+          <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>
+          <ul class="menu-items">
+            <div class="nav-item hamburger item">
+                <img src="Icons/PNGs/Home.png" alt="home">
+                <li><a href="#">Home</a></li>
             </div>
-            <nav class="nav-menu">
-                <ul class="nav">
-                    <div class="nav-item">
-                        <img src="Icons/PNGs/Home.png" alt="home">
-                        <li class="nav"> Home</li>
-                    </div>
-                    <div class="nav-item">
-                        <img src="Icons/PNGs/Records.png" alt="records">
-                        <li class="nav"> Records</li>
-                    </div>
-                    <div class="nav-item">
-                        <img src="Icons/PNGs/Music.png" alt="music">
-                        <li class="nav"> Music</li>
-                    </div>
-                    <div class="nav-item">
-                        <img src="Icons/PNGs/Artists.png" alt="artists">
-                        <li class="nav"> Artist</li>
-                    </div>
-                    <div class="nav-item">
-                        <img src="Icons/PNGs/Concerts.png" alt="concerts">
-                        <li class="nav"> concerts</li>
-                    </div>
-                    <div class="nav-item">
-                        <button class="nav">Sign Up</button>
-                    </div>
-                </ul>
-            </nav>
+            <div class="nav-item">
+                <img src="Icons/PNGs/Records.png" alt="records">
+                <li><a href="#">Records</a></li>
+            </div>
+            <div class="nav-item">
+                <img src="Icons/PNGs/Music.png" alt="music">
+                <li><a href="#">Music</a></li>
+            </div>
+            <div class="nav-item">
+                <img src="Icons/PNGs/Artists.png" alt="artists">
+                <li><a href="#">Artists</a></li>
+            </div>
+            <div class="nav-item">
+                <img src="Icons/PNGs/Concerts.png" alt="concerts">
+                <li><a href="#">Concerts</a></li>
+            </div>
+            <button><a href="#">Contact</a></button>
+          </ul>
         </div>
-    </header>
+      </nav>
     <main>
         <section class="hero-banner">
             <div class="hero-banner-wrapper" id="bkg">
                 <div class="hero-text">
                     <h1>A.M. Paradox</h1>
-                    <p class="hero">Christopher Brent Wood, better known by his stage name Brent Faiyaz, is <br>an American singer and record producer. He released his debut project, an <br>extended play entitled A.M. Paradox, in 2016.</p>
+                    <p class="hero">Christopher Brent Wood, better known by his stage name Brent Faiyaz, is an American singer and record producer. He released his debut project, an extended play entitled A.M. Paradox, in 2016.</p>
                     <div class="play-button">
                         <img src="Icons/PNGs/Play_button.png" alt="play-button" class="play-button">
                         <p class="hero">Watch Video</p>
@@ -66,7 +68,7 @@
                 <div class="featured-artist-img">
                     <img src="Images/image2.png" alt="Brent Faiyaz" class="featured-artist">
                 </div>
-                <div class="featured-artist-content">
+                <div class="featured-artist-content container--narrow">
                     <h2>Brent Faiyaz, So <br>Far Gone</h2>
                     <p>Faiyaz began uploading his music onto SoundCloud in 2014 and moved from his hometown Columbia, Maryland to Charlotte, North Carolina before ultimately settling in Los Angeles, California to further his music career. On January 19, 2015, he released his debut single "Allure".[4] On June 1, 2016, Faiyaz released "InviteMe", the lead single from his upcoming debut EP. On September 19, 2016, his 21st birthday, the EP entitled A.M. Paradox was released and received with positive reviews from music critics. On January 26, 2017, Sonder released their debut EP Into.</p>
                     <button>Learn More</button>
@@ -77,7 +79,7 @@
             <div class="new-releases-wrapper">
                 <div class="new-releases-title-content">
                     <h2>New Releases</h2>
-                    <p>New albums every single month, check out the newest & best from Snyder <br>Recording artist, now available on Apple Music & Spotify.</p>
+                    <p>New albums every single month, check out the newest & best from Snyder Recording artist, now available on Apple Music & Spotify.</p>
                 </div>
                 <div class="new-releases-slider-cards slider center">
                     <div class="slider-card">
@@ -130,7 +132,7 @@
             <div class="contact-wrapper">
                 <div class="contact-content">
                     <h2>Get In Touch</h2>
-                    <p>New albums every single month, check out the newest & <br>best from Synder Recording artist, now available on Apple <br>Music & Spotify.</p>
+                    <p>New albums every single month, check out the newest & best from Synder Recording artist, now available on Apple Music & Spotify.</p>
                     <div class="name-inputs">
                         <input type="text" placeholder="First Name" class="first-name">
                         <input type="text" placeholder="Last Name" class="last-name">
@@ -159,65 +161,69 @@
             </div>
         </section>
     </main>
-    <footer class="container">
-        <div class="footer-top-items co-info">
-            <div class="co-info">
-                <img src="logo/PNGS/SRrecordings_white.png" alt="logo_icon" class="logo">
-                <p>8521 W Fairfax Rd</p>
-                <p>Los Angeles</p>
-                <p>90210</p>
-                <p>909.505.4302</p>
+    <footer class="footer-container">
+        <div class="footer-top-items">
+            <div class="co-info-container">
+                <div class="co-info">
+                    <img src="logo/PNGS/SRrecordings_white.png" alt="logo_icon" class="white-logo">
+                    <p>8521 W Fairfax Rd</p>
+                    <p>Los Angeles</p>
+                    <p>90210</p>
+                    <p>909.505.4302</p>
+                </div>
             </div>
-            <div class="footer-top-items explore-items">
-                <h4 class="footer-top-items">Explore</h4>
-                <ul class="footer-top-items">
-                    <li class="footer-top-item">About Us</li>
-                    <li class="footer-top-item">Our Story</li>
-                    <li class="footer-top-item">Team</li>
-                    <li class="footer-top-item">Careers</li>
-                    <li class="footer-top-item">FAQ</li>
-                </ul>
-            </div>
-            <div class="footer-top-items music-items">
-                <h4 class="footer-top-items">Music</h4>
-                <ul class="footer-top-items">
-                    <li class="footer-top-item">Missing Out</li>
-                    <li class="footer-top-item">Trapsoul</li>
-                    <li class="footer-top-item">Sonder Sons</li>
-                    <li class="footer-top-item">Paradise Today</li>
-                    <li class="footer-top-item">Needed</li>
-                </ul>
-            </div>
-            <div class="footer-top-items artists-items">
-                <h4 class="footer-top-items">Artists</h4>
-                <ul class="footer-top-items">
-                    <li class="footer-top-item">Brent Faiyaz</li>
-                    <li class="footer-top-item">Drake</li>
-                    <li class="footer-top-item">Bryson Tiller</li>
-                    <li class="footer-top-item">Young Ford</li>
-                    <li class="footer-top-item">Rory Fresco</li>
-                </ul>
-            </div>
-            <div class="footer-top-items records-items">
-                <h4 class="footer-top-items">Records</h4>
-                <ul class="footer-top-items">
-                    <li class="footer-top-item">What a Time</li>
-                    <li class="footer-top-item">Coming Home</li>
-                    <li class="footer-top-item">Always First</li>
-                    <li class="footer-top-item">So Far Gone</li>
-                    <li class="footer-top-item">Big Bluez</li>
-                </ul>
-            </div>
-            <div class="footer-top-items concerts-items">
-                <h4 class="footer-top-items">Concerts</h4>
-                <ul class="footer-top-items">
-                    <li class="footer-top-item">Midland Live</li>
-                    <li class="footer-top-item">Granada 2018</li>
-                    <li class="footer-top-item">Tiller Unplugged</li>
-                    <li class="footer-top-item">Love Live</li>
-                    <li class="footer-top-item">XX Live Mix</li>
-                </ul>
-            </div>
+            <div class="footer-nav-links">
+                <div class="footer-top-items-container explore-items">
+                    <h4 class="footer-top-items">Explore</h4>
+                    <ul class="footer-top-items">
+                        <li class="footer-top-item">About Us</li>
+                        <li class="footer-top-item">Our Story</li>
+                        <li class="footer-top-item">Team</li>
+                        <li class="footer-top-item">Careers</li>
+                        <li class="footer-top-item">FAQ</li>
+                    </ul>
+                </div>
+                <div class="footer-top-items-container music-items">
+                    <h4 class="footer-top-items">Music</h4>
+                    <ul class="footer-top-items">
+                        <li class="footer-top-item">Missing Out</li>
+                        <li class="footer-top-item">Trapsoul</li>
+                        <li class="footer-top-item">Sonder Sons</li>
+                        <li class="footer-top-item">Paradise Today</li>
+                        <li class="footer-top-item">Needed</li>
+                    </ul>
+                </div>
+                <div class="footer-top-items-container artists-items">
+                    <h4 class="footer-top-items">Artists</h4>
+                    <ul class="footer-top-items">
+                        <li class="footer-top-item">Brent Faiyaz</li>
+                        <li class="footer-top-item">Drake</li>
+                        <li class="footer-top-item">Bryson Tiller</li>
+                        <li class="footer-top-item">Young Ford</li>
+                        <li class="footer-top-item">Rory Fresco</li>
+                    </ul>
+                </div>
+                <div class="footer-top-items-container records-items">
+                    <h4 class="footer-top-items">Records</h4>
+                    <ul class="footer-top-items">
+                        <li class="footer-top-item">What a Time</li>
+                        <li class="footer-top-item">Coming Home</li>
+                        <li class="footer-top-item">Always First</li>
+                        <li class="footer-top-item">So Far Gone</li>
+                        <li class="footer-top-item">Big Bluez</li>
+                    </ul>
+                </div>
+                <div class="footer-top-items-container concerts-items">
+                    <h4 class="footer-top-items">Concerts</h4>
+                    <ul class="footer-top-items">
+                        <li class="footer-top-item">Midland Live</li>
+                        <li class="footer-top-item">Granada 2018</li>
+                        <li class="footer-top-item">Tiller Unplugged</li>
+                        <li class="footer-top-item">Love Live</li>
+                        <li class="footer-top-item">XX Live Mix</li>
+                    </ul>
+                </div>
+            </div>           
         </div>
         <div class="footer-bottom-items">
             <nav class="footer-bottom">
