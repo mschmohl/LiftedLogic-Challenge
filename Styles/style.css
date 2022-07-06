@@ -172,7 +172,7 @@ button:hover {
 .hero-banner-wrapper {
   display: flex;
   align-items: center;
-  background-image: url(../images/image1.png);
+  background-image: url(../Images/image1.png);
   width: 100%;
   height: 100vh;
 }
@@ -234,7 +234,7 @@ button:hover {
   height: 43.188rem;
   -webkit-animation: breath 8s linear infinite;
           animation: breath 8s linear infinite;
-  background: url(../images/image1.png) no-repeat;
+  background: url(../Images/image1.png) no-repeat;
 }
 
 /* Featured Artist Section */
