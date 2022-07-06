@@ -2,6 +2,7 @@ let slidePosition = 0;
 const slides = document.getElementsByClassName('slider__card');
 const totalSlides = slides.length;
 
+
 document.
   getElementById('slider__button--next')
   .addEventListener("click", function() {

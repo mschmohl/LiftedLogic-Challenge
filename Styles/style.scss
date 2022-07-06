@@ -246,9 +246,7 @@ button:hover {
   margin-top: 4rem;
 }
 .slider {
-  /* overflow: hidden; */
   max-width: 36rem;
-  /* max-height: 17rem; */
   position: relative;
   display: flex;
   flex-direction: column;
@@ -693,8 +691,7 @@ footer .logo {
     display: block;
    }
    .footer-bottom-items {
-    display: block;
-    
+    display: block; 
    }
    .footer-bottom-item {
     text-align: center;
